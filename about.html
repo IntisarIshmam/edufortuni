@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Edufort-About-Us</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+
+    <body>
+        
+        <section class="sub-header">
+
+            <nav>
+                
+                <a href="index.html"><img src="images/logo.png" alt=""></a>
+
+                    <div class="nav-links" id="navlinks">
+
+                        <i class="fa fa-times" onclick="HideMenu()"></i>
+
+                        <ul>
+
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html" target="_blank">About</a></li>
+                            <li><a href="course.html" target="_blank">Course</a></li>
+                            <li><a href="blog.html" target="_blank">Blog</a></li>
+                            <li><a href="contact.html" target="_blank">Contact</a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <i class="fa fa-bars"onclick="ShowMenu()"></i>
+
+            </nav>
+
+                <h1>About Us</h1>
+
+        </section>
+
+
+
+        <!-- About us content -->
+        
+
+        <section class="about-us">
+
+
+            <div class="row">
+
+                <div class="about-col">
+
+                    <h1>We are the world's largest university</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi esse aperiam vitae et dignissimos animi. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quibusdam praesentium deserunt iure!
+                     Officiis est saepe veritatis iste suscipit beatae,
+                     nesciunt hic delectus. Eligendi nisi alias rerum iusto? Doloremque, consectetur.</p>
+                    <a href="" class="hero-btn red-btn">Explore</a>
+
+                </div>
+
+                <div class="about-col">
+
+                    <img src="images/about.jpg" alt="">
+                    
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Footer -->
+
+
+        <footer>
+
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
+            Consectetur sunt maxime perferendis fugit enim voluptatum dolor unde odio autem in?</p>
+
+
+            <div class="icons">
+
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+
+            </div>
+
+            <p>Made With <i class="far fa-heart"></i> By Intisar Ishmam </p>
+
+        </footer>
+
+
+        
+
+
+
+        
+        
+        
+        
+        <script>
+
+            var navlinks = document.getElementById("navlinks")
+
+            function ShowMenu(){
+                navlinks.style.right = "0";
+            }
+
+            function HideMenu(){
+                navlinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+
+</html>
